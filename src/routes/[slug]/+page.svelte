@@ -21,7 +21,7 @@
   <!-- Tags -->
 	<div class="tags">
 		{#each data.meta.categories as category}
-			<span class="surface-4">&num;{category}</span>
+			<span class="surface-4">{category}</span>
 		{/each}
 	</div>
 

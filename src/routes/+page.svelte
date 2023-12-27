@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { formatDate } from '$lib/utils'
-	import * as config from '$lib/config'
+	import { formatDate } from '$lib/utils';
+	import * as config from '$lib/config';
 
-	export let data
+	export let data;
 </script>
 
 <svelte:head>
@@ -17,6 +17,11 @@
 				<a href={post.slug} class="title">{post.title}</a>
 				<p class="date">{formatDate(post.date)}</p>
 				<p class="description">{post.description}</p>
+				<p class="tags">
+					{#each post.categories as category}
+						<span class="surface-4">{category}</span>
+					{/each}
+				</p>
 			</li>
 		{/each}
 	</ul>
@@ -34,7 +39,7 @@
 
 	.post:not(:last-child) {
 		border-bottom: 1px solid var(--border);
-		padding-bottom: var(--size-7);
+		padding-bottom: var(--size-5);
 	}
 
 	.title {
@@ -47,6 +52,17 @@
 	}
 
 	.description {
+		margin-top: var(--size-2);
+	}
+
+	.tags {
+		display: flex;
+		gap: var(--size-3);
 		margin-top: var(--size-3);
+	}
+
+	.tags > * {
+		padding: var(--size-2) var(--size-3);
+		border-radius: var(--radius-round);
 	}
 </style>
