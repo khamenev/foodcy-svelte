@@ -18,11 +18,11 @@
 
 <style>
 	nav {
-		padding-block: var(--size-7);
+		padding-block: var(--size-5);
 	}
 
 	.links {
-		margin-block: var(--size-7);
+		margin-block: var(--size-2);
 	}
 
 	a {
@@ -30,7 +30,7 @@
 		text-decoration: none;
 	}
 
-	@media (min-width: 768px) {
+	@media (min-width: 321px) {
 		nav {
 			display: flex;
 			justify-content: space-between;
