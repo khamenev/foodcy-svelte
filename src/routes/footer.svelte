@@ -4,7 +4,7 @@
 
 <!-- Footer -->
 <footer>
-	<p>{config.title} &copy {new Date().getFullYear()}</p>
+	<p>{config.title} &copy {config.description} {new Date().getFullYear()}</p>
 </footer>
 
 <style>

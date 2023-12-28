@@ -7,7 +7,7 @@
 <button on:click={toggleTheme} aria-label="Toggle theme">
 	{#if $theme === 'dark'}
 		<div in:fly={{ y: 10 }}>
-			<span>Light</span>
+            <span>Light</span>
 		</div>
 	{:else}
 		<div in:fly={{ y: -10 }}>

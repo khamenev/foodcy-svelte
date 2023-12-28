@@ -7,12 +7,12 @@ type Theme = 'light' | 'dark'
 const userTheme = browser && localStorage.getItem('color-scheme')
 
 // create the store
-export const theme = writable(userTheme ?? 'dark')
+export const theme = writable(userTheme ?? 'light')
 
 // update the theme
 export function toggleTheme() {
 	theme.update((currentTheme) => {
-		const newTheme = currentTheme === 'dark' ? 'light' : 'dark'
+		const newTheme = currentTheme === 'light' ? 'dark' : 'light'
 
 		document.documentElement.setAttribute('color-scheme', newTheme)
 		localStorage.setItem('color-scheme', newTheme)

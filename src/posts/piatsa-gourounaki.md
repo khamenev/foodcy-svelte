@@ -1,7 +1,7 @@
 ---
 title: Piatsa Gourounaki
 description: Discover Delisios Pizza, Limassol's hidden gem for authentic, mouth-watering round-killers
-date: '2023-12-31'
+date: '2023-12-27'
 categories:
   - Nicosia
   - 🍢
@@ -14,4 +14,4 @@ Get ready for a pizza experience that's so scrumptious, it'll make your taste bu
 ## Must
 And oh, my favorite? A luxurious and tender pizza topped with mortadella and pistachios that's sure to spark envy even in your Italian buddy. It's the kind of pizza that doesn't just satisfy your cravings – it starts a party in your mouth!
 ## Where
-[Andrea Zakou 5-6, Limassol 3095](https://maps.app.goo.gl/jmNW6he9bykk5DXT6)
+[Faneromenis 92 Nicosia CY 1011](https://maps.app.goo.gl/DLve3EoKj15h9ggP7)
