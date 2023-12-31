@@ -30,6 +30,11 @@
 		text-decoration: none;
 	}
 
+	a:hover {
+        color: var(--hover-color); 
+        text-decoration: underline; 
+    }
+
 	@media (min-width: 321px) {
 		nav {
 			display: flex;
