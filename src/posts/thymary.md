@@ -17,5 +17,5 @@ If you've still got room, and don't mind adding a bit more weight, their salads 
 
 P.S. Always take a Greek size portion, it is enough even for several people.
 ## Where
-[1. Georgiou 'A 58, Germasogeia CY 4047](https://maps.app.goo.gl/4TKxkFqoaFNbyVcS9)
-[2. Plateia Syntagmatos 3 Old Port Entrance CY 3036](https://maps.app.goo.gl/CsTjQKUcXYusgRKRA)
+- [Georgiou 'A 58, Germasogeia CY 4047](https://maps.app.goo.gl/4TKxkFqoaFNbyVcS9)
+- [Plateia Syntagmatos 3 Old Port Entrance CY 3036](https://maps.app.goo.gl/CsTjQKUcXYusgRKRA)
